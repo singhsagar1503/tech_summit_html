@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Full Stack Summit 2026</title>
+</head>
+<body>
+    <header>
+        <h2>India Full Stack Summit 2026</h2>
+        <nav>
+            <a href="#speakers">Speakers</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#faq">FAQ</a>
+            <a href="#register">Register Now</a>
+        </nav>
+        <hr>
+    </header>
+        <main>
+            <section>
+                <h1>India Full Stack Summit<mark>2026 Edition</mark></h1>
+                <p>Date: <time datetime="2026-05-15">May 15, 2026</time>|Venue: New Delhi</p>
+                <figure>
+                    <img src="banner.png" alt="Indian Full Stack Summit" height="300" width="200">
+                    <figcaption>Fig1. Live Coding Workshop and startups hiring drives at the summit.</figcaption>
+                </figure>
+            </section>
+            <hr>
+            <section id="speakers">
+                <h2>Keynote Speakers</h2>
+                <article>
+                    <h3>Dr. Aditi Sharma - Senior Backend</h3>
+                    <blockquote>
+                        "Build real project that solved real problems."
+                        <cite>— Dr. Aditi Sharma</cite>
+                    </blockquote>
+                </article>
+            </section>
+            <hr>
+            <section id="schedule">
+                <h2>Event Schedule</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Session</th>
+                            <th>Speaker</th>
+                            <th>Hall</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>9:00 AM - 10:00 AM</td>
+                            <td>Keynote: The Future of Full Stack Development</td>
+                            <td>Dr. Aditi Sharma</td>
+                            <td>Hall A</td>
+                        </tr>
+                        <tr>
+                            <td>01:00 PM</td>
+                            <td colspan="3"><strong>Networking & Amp; Lunch Break(All Attendes)</strong></td>
+                        </tr>
+                        <tr>
+                            <td>02:30 PM</td>
+                            <td>Node.js API</td>
+                            <td>Sagar Singh</td>
+                            <td>Hall B</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4">Note:Bring your laptop for the afternoon coding session</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+            <hr>
+            <section id="faq">
+                <h2>Frequently Asked Questions</h2>
+                <details>
+                    <summary>Do I get a certificate after attending?</summary>
+                    <P>Yes! Every registered participant receives a verified digital certificate</P>
+                </details>
+                <details>
+                    <summary>Is this event beginner-friendly for BCA students?</summary>
+                    <P>Yes ,we have dedicated tracks starting from html\Css up to full stack deployment</P>
+                </details>
+            </section>
+            <hr>
+            <section id="register">
+                <h2>Book Your Pass</h2>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Step1:Personal Details</legend>
+                        <label for="fullname">Full Name(Letters only)</label>
+                        <input type="text" id="fullname" name="full_name" pattern="[A-Za-z\s]+]" maxlength="40" placeholder="Sagar Singh" required>
+                        <br><br>
+                        <label for="phone">Mobile Number(10 digits):</label>
+                        
+                        <input type="tel" id="phone" name="Phone" pattern="[0-9]{10}" placeholder="9876543210" required>
+                        <br><br>
+                        <label for="city_input">Your  city:</label>
+                        <input list="indian_cities" id="city_input" name="City" placeholder="Select Your city">
+                        <datalist id="indian_cities">
+                            <option value="New Delhi">
+                            <option value="Mumbai">
+                            <option value="Bangalore">
+                            <option value="Chennai">
+                        </datalist>
+                    </fieldset> 
+                    <br>
+                    <fieldset>
+                        <legend>
+                            Step2:Ticket & Amp; Workshops
+                        </legend>
+                        <label for="tickets">No.of tickets(1 to 5):</label>
+                        <input type="number" id="tickets" name="ticketcount" min="1" max="5" value="1">
+                        <br><br>
+                        <label for="arrival">Arrival Date:</label>
+                        <input type="date" id="arrival" name="arrival Date" required>
+                        <br><br>
+                        <label for="promo">Applied promo code:</label>
+                        <input type="text" id="promo" name="promocode" value="EARLY 2026" readonly>
+                        <br><br>
+                        <span>Select workshops(Pick as many as you want):</span> 
+                        <br>
+                        <input type="checkbox" id="ws_react" name="workshops" value="react">
+                        <label for="ws_react">React.js Boootcamp.</label>
+                        <br>
+                        <input type="checkbox" id="ws.node" name="workshops" value="nodejs">
+                        <label for="ws.node">Node.js & Amp; Mongo DB</label>
+                        <br><br>
+                        <input type="checkbox" id="terms" name="agreed terms" required>
+                        <label for="terms">I agree to the terms and conditions.</label>
+                    </fieldset>
+                    <br>
+                    <button type="submit">Confirm Registration</button>
+
+
+                
+
+                </form>
+        </main>
+        <footer><p>&copy; 2027 Tech Summit.Built with pure HTML 5</p></footer>
+        
+</body>
+</html>
